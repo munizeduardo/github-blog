@@ -13,7 +13,7 @@ This is a personal blog create as a part of Rocketseat's challenge. This is only
 <!--te-->
 
 ## Access
-This blog is currently hosted on [Vercel]()
+This blog is currently hosted on [Vercel](https://github-blog-murex.vercel.app/)
 
 ## Technologies
 * [Vite](https://vitejs.dev/)
