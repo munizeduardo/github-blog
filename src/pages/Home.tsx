@@ -1,4 +1,6 @@
+import ReactMarkdown from 'react-markdown'
 import { Link } from 'react-router-dom'
+import remarkGfm from 'remark-gfm'
 import { Profile } from '../components/Profile'
 import { useBlogContext } from '../context/BlogContext'
 
@@ -37,7 +39,12 @@ export function Home() {
               </div>
 
               <span className="text-sm text-base-text text-ellipsis overflow-hidden">
-                {item.content}
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  className="whitespace-pre-wrap"
+                >
+                  {item.content}
+                </ReactMarkdown>
               </span>
             </Link>
           ))}
