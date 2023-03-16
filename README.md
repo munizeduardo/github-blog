@@ -1,4 +1,4 @@
-<h1 align="center">#[Github Blog](https://github-blog-murex.vercel.app/)</h1>
+<h1 align="center"> # [Github Blog](https://github-blog-murex.vercel.app/) </h1>
 
 <img src="./src/assets/HeaderCover.png">
 
